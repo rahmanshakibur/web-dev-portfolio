@@ -44,7 +44,7 @@ nav{
     background-color: #FD6E0A;
     color: #FFFFFF;
     font-weight: 700;
-    padding:18px 35px;
+    padding: 15px 20px;
     border-radius: 5px;
     font-size: 20px;
     border: none;
@@ -206,4 +206,38 @@ text-align: center;
 
 .resume-download-cv{
     margin-top: 50px;
+}
+
+
+
+/* footer style */
+
+
+
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="e-mail"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.social-media img{
+    width:40px;
+    height: 40px;
+    object-fit: contain;
+
 }
